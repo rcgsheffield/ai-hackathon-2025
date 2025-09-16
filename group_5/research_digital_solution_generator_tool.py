@@ -10,6 +10,26 @@ def read_file(file_name):
     return text
     
 
+# set up arguments/flags 
+parser = argparse.ArgumentParser(description="""
+The Research Digital Solution Generator (RDSG) tool!
+                                 
+Using AI to determine the unstated technical requirements for a research grant application:
+- hardware and software.
+- research technical professional skills.
+                                 
+Users:
+- IT Services: to predict technology trends.
+- Researchers: to strengthen grant applications.
+                                 
+""")
+args = parser.parse_args()
+# print(
+#   args.positional_argument,
+#   args.flag,
+#   args.option
+# )
+
 # get API key
 #client = Anthropic(api_key=os.environ.get("ANTHROPIC_API_KEY"))
  
