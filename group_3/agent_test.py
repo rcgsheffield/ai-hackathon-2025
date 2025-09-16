@@ -31,10 +31,9 @@ How did you hear about us?
 
 
 rag_agent = create_agent(
-    model="anthropic:claude-3-7-sonnet-latest",
+    model="ollama:gpt-oss:20b",
     tools=[],
-    prompt=pipeline,
-    response_format=TicketAnalysisSchema,)
+    prompt=pipeline,)
 
 response = rag_agent.invoke({'messages': [{'role': 'user', 'content': user_problem}]})
 

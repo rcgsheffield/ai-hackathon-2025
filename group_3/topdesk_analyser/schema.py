@@ -35,7 +35,6 @@ class TicketAnalysisSchema(BaseModel):
     required_expertise: list[str]
     escalation_required: bool
     reasoning: str
-    confidence_score: float = Field(..., ge=0, le=1)
     immediate_actions: list[str]
     estimated_resolution_time: str
     business_impact: str
