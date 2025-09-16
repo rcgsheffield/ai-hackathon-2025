@@ -44,7 +44,7 @@ class AITicketAnalyser:
         print(f"Available collections: {available_collections}")
         
         # Try to get the incidents collection (check different possible names)
-        collection_names = ["incidents", "topdesk_incidents", "topdesk-incidents"]
+        collection_names = ["topdesk_incidents", "topdesk-incidents"]
         self.collection = None
         
         for name in collection_names:
@@ -330,16 +330,36 @@ def main():
         print("✅ Anthropic API key found")
     
     # Example support tickets with varying complexity
+    # test_tickets = [
+    #     """RStudio Server is completely down across the entire university. Multiple research groups in Psychology, Biology, and Statistics departments cannot access their R sessions. We have critical research deadlines this week and students cannot complete their coursework. The service has been unavailable for 2 hours.""",
+        
+    #     """Getting intermittent permission denied errors when accessing the shared research drive via VPN from home. Started happening after yesterday's network maintenance. About 15 users in the Engineering department are affected, but they can still work with local files. Some users report it works sometimes but fails other times.""",
+        
+    #     """HPC cluster job keeps failing with CUDA out-of-memory errors on the GPU nodes. The same job configuration worked perfectly last week with identical datasets. Need help optimizing memory allocation for deep learning training. This is blocking our Nature paper submission.""",
+        
+    #     """New postdoc researcher needs Python packages installed on their workstation - specifically TensorFlow, PyTorch, and Jupyter. They're getting administrator privilege errors when trying to install via pip. Also need guidance on connecting to the department's shared computing resources.""",
+        
+    #     """Security alert: Detected multiple suspicious login attempts on 20+ user accounts overnight from IP addresses in Eastern Europe. No successful logins yet, but seeing unusual patterns. Need immediate investigation and potentially disable affected accounts as precaution."""
+    # ]
+
     test_tickets = [
-        """RStudio Server is completely down across the entire university. Multiple research groups in Psychology, Biology, and Statistics departments cannot access their R sessions. We have critical research deadlines this week and students cannot complete their coursework. The service has been unavailable for 2 hours.""",
-        
-        """Getting intermittent permission denied errors when accessing the shared research drive via VPN from home. Started happening after yesterday's network maintenance. About 15 users in the Engineering department are affected, but they can still work with local files. Some users report it works sometimes but fails other times.""",
-        
-        """HPC cluster job keeps failing with CUDA out-of-memory errors on the GPU nodes. The same job configuration worked perfectly last week with identical datasets. Need help optimizing memory allocation for deep learning training. This is blocking our Nature paper submission.""",
-        
-        """New postdoc researcher needs Python packages installed on their workstation - specifically TensorFlow, PyTorch, and Jupyter. They're getting administrator privilege errors when trying to install via pip. Also need guidance on connecting to the department's shared computing resources.""",
-        
-        """Security alert: Detected multiple suspicious login attempts on 20+ user accounts overnight from IP addresses in Eastern Europe. No successful logins yet, but seeing unusual patterns. Need immediate investigation and potentially disable affected accounts as precaution."""
+        """Project Name:
+- Analysis for my research
+
+How can we help?
+- Hi there,
+
+My name is Alexis, I need help with analysing my research data.
+
+I'm trying to do geospatial analytics in Python. But it's just NOT working?!
+
+
+
+Key software or programming language:
+- Python
+
+How did you hear about us?
+- Faculty communications"""
     ]
     
     print(f"\n🚀 Analyzing {len(test_tickets)} tickets with Claude's AI reasoning...\n")

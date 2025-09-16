@@ -21,4 +21,6 @@ Setup `.env` file with
 
 ```
 ANTHROPIC_API_KEY=your_anthropic_api_key
+TOPDESK_URL=https://your-topdesk.com
+TOPDESK_TOKEN=your_topdesk_token
 ```
