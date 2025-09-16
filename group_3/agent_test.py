@@ -177,4 +177,24 @@ rag_agent = create_agent(
     response_format=TicketAnalysisSchema,)
 
 response = rag_agent.invoke({'messages': [{'role': 'user', 'content': user_problem}]})
+
+
+# %%
+def format_ticket_analysis(analysis: dict) -> str:
+    return (
+        f"Category: {analysis.get('category')}\n"
+        f"Subcategory: {analysis.get('subcategory')}\n"
+        f"Priority: {analysis.get('priority')}\n"
+        f"Assigned Team: {analysis.get('assigned_team')}\n"
+        f"Technical Complexity: {analysis.get('technical_complexity')}\n"
+        f"Required Expertise: {', '.join(analysis.get('required_expertise', []))}\n"
+        f"Escalation Required: {analysis.get('escalation_required')}\n"
+        f"Reasoning: {analysis.get('reasoning')}\n"
+        f"Immediate Actions: {', '.join(analysis.get('immediate_actions', []))}\n"
+        f"Estimated Resolution Time: {analysis.get('estimated_resolution_time')}\n"
+        f"Business Impact: {analysis.get('business_impact')}\n"
+        f"Risk Factors: {', '.join(analysis.get('risk_factors', []))}"
+    )
+
+print(format_ticket_analysis(response['structured_response'].model_dump()))
 # %%
