@@ -1,6 +1,8 @@
 #!/usr/bin/python
 import os
 from anthropic import Anthropic
+import argparse
+from argparse import RawTextHelpFormatter
 
 
 # read in text from file
@@ -22,7 +24,7 @@ Users:
 - IT Services: to predict technology trends.
 - Researchers: to strengthen grant applications.
                                  
-""")
+""", formatter_class=RawTextHelpFormatter)
 args = parser.parse_args()
 # print(
 #   args.positional_argument,
