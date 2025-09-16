@@ -1,0 +1,7 @@
+[project]
+name = "topdesk-triage-system"
+version = "0.1.0"
+description = "A helpful triage system for suggesting which team to assign a TOPdesk ticket to."
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = []
