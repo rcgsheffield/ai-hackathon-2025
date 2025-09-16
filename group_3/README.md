@@ -15,3 +15,10 @@ python -m venv .venv
 .venv\Scripts\activate
 pip install -r requirements.txt
 ```
+
+
+Setup `.env` file with
+
+```
+ANTHROPIC_API_KEY=your_anthropic_api_key
+```
