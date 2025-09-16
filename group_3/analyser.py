@@ -162,7 +162,7 @@ Context: {ticket['document_content']}
         
         prompt = f"""{context}
 
-=== NEW SUPPORT TICKET TO ANALYse ===
+=== NEW SUPPORT TICKET TO ANALYSE ===
 {query}
 
 === ANALYSIS REQUEST ===
