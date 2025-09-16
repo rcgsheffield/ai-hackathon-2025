@@ -1,3 +1,4 @@
+#%%
 #!/usr/bin/env python3
 """
 AI-Powered Support Ticket Analyzer
@@ -394,3 +395,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+# %%
