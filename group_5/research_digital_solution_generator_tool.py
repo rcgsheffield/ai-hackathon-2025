@@ -57,5 +57,10 @@ response = client.messages.create(
 
 print(response.content[0].text)
 
+# it services
+csv_lines = response.content[0].text.split("```")[1]
+with open("./output/research_it_technical_requirements.csv") as csv_output:
+    csv_output.write(csv_lines)
 
-
+# researchers
+print(response.content[0].text)
