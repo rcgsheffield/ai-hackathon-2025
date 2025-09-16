@@ -1,4 +1,5 @@
 from collections import defaultdict
+import os
 from typing import Any, Dict, List
 
 import pandas as pd
@@ -180,7 +181,11 @@ if __name__ == "__main__":
     ranked_profiles = group_and_rank_profiles(retrieved_chunks)
 
     # 5. Initialize the LLM (Claude)
-    # Ensure your ANTHROPIC_API_KEY is set in your environment
+    import os
+    
+    if "ANTHROPIC_API_KEY" not in os.environ:
+        print("Error: ANTHROPIC_API_KEY is not set in your environment!", file=sys.stderr)
+        exit(1)
     try:
         llm = ChatAnthropic(model="claude-3-haiku-20240307", temperature=0.1)
     except Exception as e:
