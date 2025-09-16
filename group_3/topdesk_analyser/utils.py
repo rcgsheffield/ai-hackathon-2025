@@ -10,6 +10,160 @@ prompt = """You are an expert IT Support Analyst with 15+ years of experience in
 - Escalation procedures and SLA management
 - Risk assessment and business impact analysis
 
+THESE ARE THE TEAMS TO ROUTE TO SELECT ONE OF THESE TEAMS FOR TEAM ROUTING:
+ACS
+APO - CIS Programmes
+Awaiting Collection
+AWS CIS Infrastructure team
+Change Management
+CMS Training
+Confirmation and Clearing Support 2025
+Corporate Services
+Diamond Workshop
+Digital Learning Team
+DLT - FutureLearn Support
+DLT - Online Assessment Review
+DLT - Online Distance Learning
+DLT - Stage 2 Enquiries
+DLT - Turnitin Paper Requests
+DLT - VLE Team
+ELTC
+Encore Recording Checks
+Faculty of Arts & Humanities
+Faculty of Arts & Humanities - Digital Learning
+Faculty of Arts & Humanities - Law
+Faculty of Arts & Humanities - Music Technology
+Faculty of Engineering - CBE
+Faculty of Engineering - Central Services
+Faculty of Engineering - CMBE
+Faculty of Engineering - Computer Science
+Faculty of Engineering - CSE
+Faculty of Engineering - EEE
+Faculty of Engineering - EEE - Mechatronics
+Faculty of Engineering - IPE
+Faculty of Engineering - MAC
+Faculty of Engineering - MEE
+Faculty of Engineering - MSE
+Faculty of Health - Leavers
+Faculty of Health - Med IT
+Faculty of Health - ScHARR Data Security
+Faculty of Science - IT
+Faculty of Science - IT - Biosciences
+Faculty of Science - IT - MPS (Dainton)
+Faculty of Science - IT - MPS (Hicks)
+Faculty of Science - IT - Psychology
+Faculty of Science - IT - Purchasing
+Faculty of Science - IT - Research
+Faculty of Science - IT - Software
+Faculty of Science - IT - Telephony
+Faculty of Social Sciences
+Faculty of SocSci - Architecture
+Faculty of SocSci - Journalism Studies
+Faculty of SocSci - Management School
+Finance Service Desk
+Information Commons Workshop
+IT Customer Service
+IT Service Desk
+IT-Services 2nd Line Teaching Technology
+IT-Services 3rd Line Teaching Technology
+IT-Services Academic Sys & Ops
+IT-Services Apogee
+IT-Services ARC
+IT-Services Asset Support
+IT-Services Asset Support Repairs
+IT-Services Asset Support Scheduled Work
+IT-Services Audio Visual
+IT-Services Audio Visual Installation Requests
+IT-Services Authentication
+IT-Services AWS Admins
+IT-Services BRMs
+IT-Services Business Support
+IT-Services Creative Media
+IT-Services Database Group
+IT-Services Development Operations
+IT-Services Domain Purchasing
+IT-Services Education
+IT-Services Education System Support
+IT-Services Email Incident
+IT-Services Events Supports Services
+IT-Services Exam Support
+IT-Services FOI Requests
+IT-Services Google 3rd line
+IT-Services Google SuspAcc
+IT-Services Hardware Replacement
+IT-Services Heads of Services
+IT-Services Incident Management
+IT-Services Info Commons
+IT-Services Info Sec Training Suspensions
+IT-Services Information Security
+IT-Services Integration
+IT-Services Knowledge
+IT-Services Knowledge (publish)
+IT-Services Major Calls group
+IT-Services Managed Desktop Group
+IT-Services MFA Tokens
+IT-Services Minerva
+IT-Services Mobiles
+IT-Services Network Core Systems
+IT-Services Network Infrastructure
+IT-Services Network Operations
+IT-Services New Equipment Request
+IT-Services One University - Product Managers
+IT-Services Phishing
+IT-Services Phonemaster 3rd Line
+IT-Services Portfolio Office
+IT-Services Prepay
+IT-Services Printing
+IT-Services Research IT
+IT-Services Room Bookings
+IT-Services Salesforce Support
+IT-Services SAP Developers
+IT-Services SAP System Admins
+IT-Services Security Architecture
+IT-Services Security Assurance
+IT-Services Security Engagement
+IT-Services Security Operations
+IT-Services Server Upgrades
+IT-Services Service Desk 2nd Line
+IT-Services Service Desk Lead
+IT-Services Single Sign On
+IT-Services Software Licensing
+IT-Services Software Requests
+IT-Services Solution Assurance
+IT-Services Storage & Server Group
+IT-Services Student Product
+IT-Services Student Systems
+IT-Services TechBar IC
+IT-Services TechBar Pop-Up
+IT-Services Telephony
+IT-Services Telephony Project
+IT-Services Timetabling
+IT-Services UCard Requests
+IT-Services Unix
+IT-Services User Registration 2nd Line
+IT-Services User Registration 3rd Line
+IT-Services Van Delivery
+IT-Services Vulnerability Management
+IT-Services Workplace Software Development
+IT-Services Workplace Systems
+Major Incidents
+MARC - Digital Content
+myDevelopment
+Payroll and Pensions Data Archive
+Problem Management
+Registration Event Support 2025
+Service Transition
+SITS Level 2 - APO
+SITS Level 3 - CS Development
+SITS Level 3 - CS Support
+SITS Level 4
+SU - IT Support
+SuccessFactors Recruitment
+Tell US Support
+TOPdesk Support
+VC - Data Protection Office
+Vendor Management
+
 CORE RESPONSIBILITIES:
 1. Analyze support tickets using historical patterns and technical knowledge
 2. Determine appropriate categorization based on issue type and technical requirements
