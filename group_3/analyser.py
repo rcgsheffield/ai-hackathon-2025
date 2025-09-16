@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
-AI-Powered Support Ticket Analyzer
-Uses Claude's reasoning to categorize, prioritize, and route tickets intelligently
+AI-Powered Support Ticket Analyser
+Uses Claude's reasoning to categorise, prioritise, and route tickets intelligently
 """
 
 import chromadb
@@ -29,13 +29,13 @@ class TicketAnalysis:
     immediate_actions: List[str]
 
 
-class AITicketAnalyzer:
+class AITicketAnalyser:
     """
-    AI-powered ticket analyzer using Claude's reasoning capabilities
+    AI-powered ticket analyser using Claude's reasoning capabilities
     """
     
     def __init__(self, db_path: str = "./topdesk_vectordb"):
-        """Initialize with existing ChromaDB"""
+        """Initialise with existing ChromaDB"""
         self.client = chromadb.PersistentClient(path=db_path)
         
         # Check available collections
@@ -102,7 +102,7 @@ class AITicketAnalyzer:
 - Risk assessment and business impact analysis
 
 CORE RESPONSIBILITIES:
-1. Analyze support tickets using historical patterns and technical knowledge
+1. Analyse support tickets using historical patterns and technical knowledge
 2. Determine appropriate categorization based on issue type and technical requirements
 3. Assess priority considering business impact, user count, and urgency
 4. Route tickets to teams based on technical expertise and workload capacity
@@ -124,7 +124,7 @@ PRIORITY GUIDELINES:
 
 COMPLEXITY ASSESSMENT:
 - Critical: Multi-system failures, security incidents, data integrity issues requiring senior expertise
-- High: Complex configurations, system integrations, performance optimization, specialized technical knowledge needed
+- High: Complex configurations, system integrations, performance optimization, specialised technical knowledge needed
 - Medium: Standard software issues, configuration changes, troubleshooting requiring technical skills
 - Low: Basic user issues, simple configurations, routine maintenance tasks
 
@@ -162,7 +162,7 @@ Context: {ticket['document_content']}
         
         prompt = f"""{context}
 
-=== NEW SUPPORT TICKET TO ANALYZE ===
+=== NEW SUPPORT TICKET TO ANALYse ===
 {query}
 
 === ANALYSIS REQUEST ===
@@ -228,7 +228,7 @@ Use your expertise to make intelligent decisions. Reference the similar tickets 
         except Exception as e:
             return f'{{"error": "Anthropic API error: {str(e)}"}}'
     
-    def analyze_ticket(self, query: str) -> TicketAnalysis:
+    def analyse_ticket(self, query: str) -> TicketAnalysis:
         """
         Complete AI-powered ticket analysis
         
@@ -289,8 +289,8 @@ Use your expertise to make intelligent decisions. Reference the similar tickets 
                 immediate_actions=["Manual review required", "Check response format"]
             )
     
-    def batch_analyze(self, tickets: List[str]) -> List[TicketAnalysis]:
-        """Analyze multiple tickets"""
+    def batch_analyse(self, tickets: List[str]) -> List[TicketAnalysis]:
+        """Analyse multiple tickets"""
         
         results = []
         for i, ticket in enumerate(tickets, 1):
@@ -298,7 +298,7 @@ Use your expertise to make intelligent decisions. Reference the similar tickets 
             print(f"PROCESSING TICKET {i}/{len(tickets)}")
             print(f"{'='*60}")
             
-            analysis = self.analyze_ticket(ticket)
+            analysis = self.analyse_ticket(ticket)
             results.append(analysis)
             
             print(f"✅ Completed: {analysis.category} | {analysis.priority} | {analysis.assigned_team}")
@@ -309,12 +309,12 @@ Use your expertise to make intelligent decisions. Reference the similar tickets 
 def main():
     """Example usage with AI-powered analysis"""
     
-    print("=== AI-Powered Support Ticket Analyzer ===")
+    print("=== AI-Powered Support Ticket Analyser ===")
     print("Using Claude's intelligent reasoning for ticket analysis\n")
     
-    # Initialize analyzer
+    # Initialise analyser
     try:
-        analyzer = AITicketAnalyzer()
+        analyser = AITicketAnalyser()
         print("✅ Connected to ChromaDB successfully")
     except Exception as e:
         print(f"❌ Error: Could not connect to ChromaDB: {e}")
@@ -349,8 +349,8 @@ def main():
         print(f"{'='*80}")
         print(f"Description: {ticket}\n")
         
-        # Analyze ticket with AI
-        analysis = analyzer.analyze_ticket(ticket)
+        # Analyse ticket with AI
+        analysis = analyser.analyse_ticket(ticket)
         
         # Display comprehensive results
         print(f"🎯 INTELLIGENT CATEGORIZATION:")
@@ -384,7 +384,7 @@ def main():
     print("=" * 80)
     print("🎉 AI ANALYSIS COMPLETE")
     print("=" * 80)
-    print("\nThe AI analyzer provides:")
+    print("\nThe AI analyser provides:")
     print("✅ Intelligent categorization using Claude's reasoning")
     print("✅ Context-aware priority assessment") 
     print("✅ Expert team routing based on technical requirements")
