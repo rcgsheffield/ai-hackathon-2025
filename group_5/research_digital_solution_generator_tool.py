@@ -59,7 +59,7 @@ content=f"""
 
 Research IT Website Content: {research_it_website_content} 
 
-The Research IT output should be provided in this CSV format: {research_it_requirements_output}
+The Research IT output should be provided in this CSV format PLEASE: {research_it_requirements_output}
 
 Grant Text: {grant_text}
 """
@@ -79,10 +79,13 @@ response = client.messages.create(
 
 print(response.content[0].text)
 
-# it services
+# IT services
+csv_file="./output/research_it_technical_requirements.csv"
+print(f"Saving Research IT output to csv file for IT Services users: {csv_file}")
 csv_lines = response.content[0].text.split("```")[1]
-with open("./output/research_it_technical_requirements.csv") as csv_output:
+with open(csv_file, "w") as csv_output:
     csv_output.write(csv_lines)
 
 # researchers
+print(f"Printing output for researchers: {csv_file}")
 print(response.content[0].text)
