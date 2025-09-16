@@ -209,7 +209,7 @@ Use your expertise to make intelligent decisions. Reference the similar tickets 
             )
             
             response = client.messages.create(
-                model="claude-3-5-haiku-20241022",
+                model="claude-sonnet-4-20250514",
                 max_tokens=2000,
                 temperature=0.1,  # Low temperature for consistent analysis
                 system=system_prompt,
