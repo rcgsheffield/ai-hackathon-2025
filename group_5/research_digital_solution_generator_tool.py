@@ -1,0 +1,91 @@
+#!/usr/bin/python
+import os
+from anthropic import Anthropic
+import argparse
+from argparse import RawTextHelpFormatter
+
+
+# read in text from file
+def read_file(file_name):
+    with open(file_name, "r") as f:
+        text = f.read()
+    return text
+    
+
+# set up arguments/flags 
+parser = argparse.ArgumentParser(description="""
+The Research Digital Solution Generator (RDSG) tool!
+                                 
+Using AI to determine the unstated technical requirements for a research grant application:
+- hardware and software.
+- research technical professional skills.
+                                 
+Users:
+- IT Services: to predict technology trends.
+- Researchers: to strengthen grant applications.
+                                 
+""", formatter_class=RawTextHelpFormatter)
+args = parser.parse_args()
+# print(
+#   args.positional_argument,
+#   args.flag,
+#   args.option
+# )
+
+# get API key
+#client = Anthropic(api_key=os.environ.get("ANTHROPIC_API_KEY"))
+ 
+# initialise anthropic client
+CLAUDE_API_KEY=
+client = Anthropic(api_key=CLAUDE_API_KEY)
+
+
+# variables
+model_name="claude-sonnet-4-20250514"
+role="user"
+
+# organise prompt
+prompt_file="./input/prompt.txt"
+prompt_text=read_file(prompt_file)
+research_it_website_content_file="./input/research_it_website_content.txt"
+research_it_website_content=read_file(research_it_website_content_file)
+research_it_requirements_output_file="./input/Research_IT_Requirements_Output.csv"
+research_it_requirements_output=read_file(research_it_requirements_output_file)
+grant_file="./input/grant_text.txt"
+grant_text=read_file(grant_file)
+
+content=f""" 
+{prompt_text} 
+
+Research IT Website Content: {research_it_website_content} 
+
+The Research IT output should be provided in this CSV format PLEASE: {research_it_requirements_output}
+
+Grant Text: {grant_text}
+"""
+
+
+# make request
+response = client.messages.create(
+    model=model_name,
+    max_tokens=1000,
+    messages=[
+        {
+            "role": role,
+            "content": content,
+        }
+    ]
+)
+
+print(response.content[0].text)
+
+# IT services
+csv_file="./output/research_it_technical_requirements.csv"
+print(f"Saving Research IT output to csv file for IT Services users: {csv_file}")
+csv_lines = response.content[0].text.split("```")[1]
+with open(csv_file, "w") as csv_output:
+    csv_output.write(csv_lines)
+
+# researchers
+print(f"Printing output for researchers: {csv_file}")
+print(response.content[0].text)

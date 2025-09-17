@@ -1,0 +1,635 @@
+Data analysis support
+Helping you to bridge skill gaps in your research with the Data 
+Analysis Service.
+On this page:
+Overview   
+Who we are   
+How we can help   
+Contact us   
+Overview
+Data are integral to modern research. Reading, making sense of, 
+analysing, visualising or publishing your data are more 
+challenging than ever. Data are developing and growing, and it is 
+important to use the right tools and methods.
+We can support you in using cutting-edge technology or science in
+your research.
+Who we are
+We are a team of data scientists, data engineers and statisticians 
+who understand the research environment and its processes.
+We have experience and knowledge in a range of tools and topics 
+in the field of data analysis to help you overcome challenges you 
+may be facing in your research.
+How we can help
+Consultation
+The Data Analysis Service offers friendly one-to-one consultations 
+to all researchers. We aim to give you the best advice and support 
+for your specific challenge. If we can't help, we will help you to 
+find someone who can or point you in the right direction for 
+additional support.
+Training
+We also offer training in a range of core skills and 
+programming and self-paced learning and support to help you 
+enhance your skills and develop your career.
+Collaboration
+Finally, we offer the chance to collaborate with a member of the 
+team by providing staffing to your grants. Depending on 
+availability, we can provide a staff member for up to 50% of a full 
+time role.
+If you are seeking this support, it is essential that you contact us 
+before submitting your funding application. This is to ensure that 
+staff time is costed in a way that:
+Enables us to allocate people once the project is awarded
+Ensures that an appropriate amount of time is costed for the 
+aspirations of the project
+Enables us to plan workload across a large team involved 
+with many projects
+We can normally provide effort with the right skills, but
+sometimes we need to ask for compromise on start and end dates, 
+or proportions of staff time.
+Research Software Engineering Sheffield - what we do
+We would like to collaborate with you to help improve your 
+research software in a range of areas. Supporting the entire 
+University, we have collaborators in every faculty and have 
+supported researchers in a range of subject areas including 
+engineering, mathematics, computer science, biology, linguistics, 
+physics, chemistry and geography.
+Research Software Engineering
+We can help you take your computational workflow to the next 
+level –making it more automated, robust, open, accessible, user 
+friendly and reproducible.
+Increasing research impact through software
+We believe that it is possible to increase the impact of your 
+research by leveraging the research software you developed to 
+make it possible. We can help you make your software open, 
+citable and discoverable.
+Faster code
+We can work with you to optimise your code using a range of 
+hardware and software technologies. R, Python, OpenMP, CUDA, 
+C++, C, Fortran, MATLAB, Mathematica, and more - we have 
+proven experience in helping researchers get results more quickly.
+In some cases, we can provide significant speed-ups in just a few 
+days.
+GPU computing
+We have specialists in GPU computing who can assist you with 
+accelerating your computational problems using this relatively 
+new technology. We can also help you learn more about deep 
+learning, the powerful new machine learning technique that uses 
+GPUs to solve complex data science problems.
+As part of our GPU computing at University of Sheffield initiative, 
+we have a number of RSE team members who are Deep Learning 
+Institute accredited trainers who run courses which aim to teach 
+how to use GPUs and help you gain access to hardware.
+We also specialise in the use of agent based modeling on GPUs 
+using FLAME or FLAME GPU to perform large scale simulations.
+High Performance Computing (HPC)
+We collaborate with a range of partners including IT Services, N8, 
+Archer and Microsoft to provide you with HPC support on local, 
+regional, national and cloud-based facilities.
+Locally, we assist IT Services in supporting users on the 
+University’s HPC clusters, Stanage and Bessemer. We are major 
+contributors to their documentation system and can help you with 
+software installation, training and advice on how to make 
+maximum use out of these HPC resources that are free to all 
+members of The University of Sheffield.
+We work with the UK National Supercomputing service, ARCHER2
+as HPC Champions. Our role is to advise users on the access of 
+appropriate computational resources, and in supporting these 
+users to access and exploit these resources appropriately.
+Grant support
+We have a proven track record in working with PIs to obtain 
+funding for dedicated Research Software Engineering posts and 
+can offer assistance to you for your next grant application.
+Working with organisations such as the Software Sustainability 
+Institute and the UK community of Research Software Engineers, 
+we engage with funding providers to demonstrate the importance 
+of research software engineers in modern research.
+Supporting lecturers
+We work with University of Sheffield lecturers to assist them in 
+leveraging modern research software in their teaching.
+A recent success story in this area is the work we did with Dr 
+Marta Milo of the Department of Biomedical Science in the 
+development of the BMS353 module. Modern interactive, cloud-
+based, open-source technologies were combined with innovative 
+teaching methodologies to develop a highly successful course.
+We give talks and seminars on the use of research software in 
+teaching -an example of which is the talk on Project Jupyter and 
+SageMathCloud at the 2016 Chemical Engineering teaching away-
+day.
+Support of site licensed RSE software
+The University of Sheffield’s IT department, IT Services, invests 
+heavily in the provision of best-in-class commercial software 
+applications for the benefit of the University’s students and 
+researchers. We work with IT Services and software vendors such 
+as Mathworks, Microsoft, Wolfram Research, Intel, NVIDIA, 
+Maplesoft and NAG to provide training and support to members of
+the University to help maximise the impact of these investments.
+Training, outreach and education
+The group is involved in a range of training and outreach 
+activities including Code Cafe, Software Carpentry and a full 
+module in Parallel computing with GPUs.
+Expertise
+Areas of expertise within the team include:
+code optimisation and performance
+reproducibility and embedding good software engineering 
+practice with your project or team
+GPU computing and Deep Learning
+statistical analysis and data visualisation
+High Performance Computing for 
+local/national/international/cloud systems
+general software development
+development of impact case studies
+consultancy
+training
+education delivery and support
+Research Computing Training
+Modern researchers require a certain level of technical proficiency. This 
+encompasses tasks like executing simulations, conducting extensive 
+computations, data manipulation and analysis, and even streamlining 
+routine chores such as renaming and relocating data. Sadly, not every 
+researcher has the chance to acquire these technical skills. Our goal is 
+to address this gap by providing programming skill enhancement 
+opportunities for any researcher interested. We provide 
+the listed training opportunities, available for all staff and 
+postgraduate students within the University of Sheffield.
+Programming Fundamentals
+Python Programming 1      (Online only)   
+Python Programming 2      (Online only)   
+Matlab Programming 1   
+Matlab Programming 2   
+Advanced Programming
+Object Oriented Programming with Python   
+Python Profiling and Optimisation   
+Data Science (Python)
+Python for Data Science 1   
+Python for Data Science 2   
+Temporal Analysis in Python   
+Basics of AI for Natural Science (Python)
+Basics of AI1:   
+Supervised Machine Learning
+Basics of AI      2:   
+Unsupervised Machine Learning
+Basics of AI 3: Neural Networks   
+Domain-Specific Programming
+Bioinformatics Training Course List   
+Domain-Specific AI
+Deep Learning Demystified:   
+Foundations for Non-Computer Scientist
+Introducing AI into Research   
+Machine Learning for Speech and Signal Processing   
+High Performance Computing
+Introduction to Linux   
+High-Performance Computing   
+FAIR²  for research software
+Better software for better research: Introduction to the FAIR    
+training programme
+Software lifecycle planning   
+Version control   
+Software design   
+Testing and Continuous Integration   
+Documentation   
+Reproducible computational environments   
+Packaging   
+Publishing a software paper in JOSS   
+Research software
+See the research software applications and software development 
+platforms we provide and support. Our support levels vary from 
+comprehensive to best efforts, but we will always try to help where
+we can.
+Central core applications
+Licences
+Some software options need a licence. You can purchase a licence across 
+campus.
+We will provide
+licences
+instructions for access
+guidance to getting started
+documentation and training, in partnership with software vendors
+Software will be updated regularly and multiple versions maintained.
+Floating licences
+If software has a floating licence, this means there are restrictions on the
+number of users who can access it at a time.
+Because of this, we need to maintain a licence-serving operation and 
+users need to specify the licence server when installing this software.
+We will provide installation instructions to access floating licences. This 
+is usually via a licence-server name and a port number.
+Software options
+A    C    G    I    M    N    P    R    S    T
+A
+Abaqus
+On HPC services: Yes
+Category: Structural code
+Purpose: Engineering
+Licence type: Floating
+Platform: Linux or Windows
+Ansys, Fluent and LS-DYNA
+On HPC services: Yes
+Category: CFD/CAE
+Purpose: Engineering
+Licence type: Floating
+Platform: Linux or Windows
+C
+CUDA
+On HPC services: Yes
+Category: Compiler
+Purpose: GPU parallel programming
+Licence type: None needed
+Platform: All
+G
+GNU
+On HPC services: Yes
+Category: Compiler
+Purpose: Development
+Licence type: None needed
+Platform: Linux or macOS
+I
+Intel Compilers
+On HPC services: Yes
+Category: Compiler
+Purpose: Development
+Licence type: Floating
+Platform: All
+M
+Maple
+On HPC services: Yes
+Category: Computing tool
+Purpose: Symbolic computing
+Licence type: Site
+Platform: All
+Mathematica
+On HPC services: Yes
+Category: Compiler
+Purpose: Symbolic and numerical maths
+Licence type: None needed
+Platform: All
+MATLAB
+On HPC services: Yes
+Category: High-level programming language
+Purpose: Scientific
+Licence type: Site and floating
+Platform: All
+MPI
+On HPC services: Yes
+Category: Compiler
+Purpose: Parallel programming
+Licence type: None needed
+Platform: All
+N
+NAG Library (Python and Fortran)
+On HPC services: Yes
+Category: Library
+Purpose: Development
+Licence type: Site
+Platform: All
+NVivo
+On HPC services: No
+Category: Information science
+Purpose: Qualitative analysis
+Licence type: Site deal
+Platform: Windows
+P
+PGI Compilers
+On HPC services: Yes
+Category: Compiler
+Purpose: Development
+Licence type: Floating
+Platform: Linux
+Python
+On HPC services: Yes
+Category: High-level programming language
+Purpose: Science
+Licence type: None needed
+Platform: All
+R
+R Compiler
+On HPC services: Yes
+Category: High-level programming language
+Purpose: Statistics
+Licence type: None needed
+Platform: All
+S
+Salford Compilers
+On HPC services: No
+Category: Compiler
+Purpose: Development
+Licence type: Site
+Platform: Windows
+SAS
+On HPC services: No
+Category: Statistical
+Purpose: Statistics
+Licence type: Site
+Platform: Windows
+SPSS
+On HPC services: No
+Category: Statistical
+Purpose: Statistics
+Licence type: Site
+Platform: Windows
+T
+TensorFlow
+On HPC services: Yes
+Category: Python library
+Purpose: Machine learning
+Licence type: None needed
+Platform: All
+Community software
+For community software, we'll provide
+licences
+licence servers
+software for different platforms. We'll also make sure that the 
+software can run on different platforms
+assistance for running software, where possible. This isn't 
+guaranteed
+updates, when requested by the research community
+The Research IT support team can install software on HPC platforms at 
+your request.
+Software installed in shared areas on the high-performance computing 
+systems must be documented by the installer on the shared 
+documentation system.
+Some software is available for free or at discounted prices. This can be 
+installed on your workstation or Managed Windows Workstations.
+See a list of software for students
+Individual software
+If you install unsupported software in community or user areas on the 
+high-performance computing (HPC) system, we may be able to provide 
+some assistance. Installation of software can't be guaranteed.
+Software installed in shared areas of the HPC system must be 
+documented by the installer on the shared documentation system.
+Cloud computing for research
+Find out how to access powerful cloud computing resources at the 
+University.
+Who can use cloud computing?
+You can apply for research cloud computing if you’re a researcher at any 
+level (including postgraduate researchers) at the University of Sheffield.
+You should have a project that:
+needs larger or more flexible compute than is available with 
+traditional resources
+and/or
+needs to be hosted in the cloud
+Sensitive data
+Are you using sensitive data for your project, or are you concerned that 
+the data you're using needs extra controls put in place around it? If so, 
+read more about the Secure Data Service for more information on 
+scalable cloud computing whilst using sensitive data.
+Benefits
+With cloud computing, you can:
+spin up virtual machines of any size with both Windows and Ubuntu
+pre-packaged machine images
+adjust machine performance using scalable compute facilities 
+create as much high security storage as you need with Amazon 
+Elastic Block Store (EBS) and Amazon Simple Storage Solution (S3)
+access powerful GPU resources
+Costs
+Cloud computing resources are paid for by the University and free for 
+researchers.
+User-friendly interface
+You can create, manage and connect to cloud resources through RONIN, 
+a user-friendly interface built on Amazon Web Services (AWS).
+Find out more on the RONIN website.
+Get a RONIN account
+Request Research Cloud Computing
+How to use RONIN
+Once you have an account, you must be logged into the University’s VPN,
+even if you're on campus.
+1. Log in to RONIN    using your University of Sheffield login details.
+2. Create your virtual machine in RONIN. Find out how to create a 
+machine.
+3. Access your machine. Find out how to use RONIN link.
+High-Performance Computing facilities
+We provide free High-Performance Computing (HPC) facilities to 
+research students and all staff at the University. Find out about our 
+facilities, how to gain access and security considerations to bear in mind.
+Our facilities
+Our HPC service is provided by two clusters: Stanage and Bessemer. 
+These clusters are composed of hundreds of computers.
+As well as fast number-crunching capabilities, HPC also provides 
+specialist software packages that aren't normally available on University 
+computers and laptops.
+You can submit intensive computing tasks to these clusters, such as those
+that require
+hours or days of computing time
+significant resource needs, such as large RAM or GPUs 
+requirements, or large amounts of storage
+The output from these tasks can then be viewed at your convenience. 
+HPC specifications
+View the specifications of the Stanage cluster
+View the specifications of the Bessemer cluster
+Shared facilities
+The N8 Centre of Excellence in Computationally Intensive Research (N8 
+CIR) recently announced a supercomputer, known as Bede.
+Bede is a Tier 2, or regional, HPC. It's funded by the Engineering and 
+Physical Sciences Research Council (EPSRC).
+The cluster is suitable for running machine learning and computational 
+applications that need graphics processing units (GPUs).
+The system can be used by researchers from N8 Research Partnership 
+institutions
+Durham
+Lancaster
+Leeds
+Liverpool
+Manchester
+Newcastle
+Sheffield
+York
+Your project needs to be registered and you need to fill the application 
+form before requesting an account.
+Fill in the Bede application form
+External tier 1 and 2 facilities
+University of Sheffield researchers can apply for access to specific UK 
+and European HPC clusters at various times throughout the year.
+These Access Calls usually specify some eligibility criteria, and require 
+an online application.
+The online application normally requires
+a project description
+project compute objective
+requested resource (CPU/GPU-hrs, and/or project duration).
+Learn more about current Live Access Calls.
+Eligibility
+You can have an account on Stanage and Bessemer if you're a member of 
+staff, or if you are one of the following categories of student and you have
+your supervisor's permission:
+A research postgraduate.
+A taught postgraduate, using the facilities for project work.
+A third or fourth-year undergraduate, using the facilities for project
+work.
+Becoming a HPC user
+Requesting access
+Students
+If you fit into one of the eligible categories of student, follow these 
+steps to register:
+1. Pass the HPC Driving Licence test.
+2. Ask your academic supervisor to fill in the HPC access request 
+form. This can be found on the IT Service Desk Self-Service 
+Portal, under 'Service Request Forms'.
+3. Once you have a Stanage/Bessemer username, you need to make 
+your password the same as your normal password. Follow the 
+‘Manage passwords’ link.
+Staff
+Staff can sign up by contacting IT help and support.
+Rules for use
+Once you've registered and have been given a username for the HPCs, 
+you must not
+share your account credentials
+allow others to run jobs using your account
+Any misuse of accounts will be investigated in line with the 
+University's IT code of practice.
+Security of data
+Dealing with sensitive information
+The HPC service should not be used to store or process sensitive 
+information, such as
+personal information
+financial data
+commercially sensitive or other forms of restricted data
+If you need to store or process this information, discuss your 
+requirements with the Research IT team via research-
+it@sheffield.ac.uk.
+Our security measures
+The security of your data is important to us. We make every effort to 
+make our HPC systems as secure as possible, within the constraints of 
+running a high-performance shared service.
+We have to balance building in additional security controls against the 
+performance and financial costs of the HPC service.
+Although we strive to make sure that we have a robust baseline of 
+security that's suitable for the HPC community, we're aware that 
+regulatory bodies and our research partners are asking for increasingly 
+stringent security controls that the HPC may not have in place.
+Extra care should always be taken when dealing with sensitive 
+information.
+Advice
+If you're in any doubt about the sensitivity of information or how it should
+be handled, contact IT help and support for advice.
+Transferring files
+View our HPC documentation to find out how to
+transfer with SCP/SFTP   
+download and upload files directly to the cluster   
+Secure Data Service
+Find out how to keep sensitive research data safe.
+Doing research with sensitive data
+If you have any concerns about the sensitivity or security of data on your 
+research project, email research-it@sheffield.ac.uk to discuss this or 
+book an appointment.
+We can provide advice on how to complete agreements with data 
+providers, and we can direct you to the most appropriate platform to host
+your research project.
+Secure Data Service cloud platform
+The Secure Data Service maintains a secure, cloud-based platform for 
+researchers working with sensitive data.
+The platform is accredited to the NHS Data Protection Security Toolkit 
+and certified to ISO.IEC 27001:2022. If your project requires additional 
+security controls, please let us know and we may be able to help.
+Who can use the Secure Data Service
+You can apply for support from the Secure Data Service if you’re a 
+researcher at any level (including postgraduate researchers) at the 
+University of Sheffield, and you are doing research with sensitive data.
+Costs
+The Secure Data Service is paid for by the University and free at the 
+point of use for researchers.
+Data Governance Statement
+The Secure Data Service provides a powerful cloud computing platform 
+for members of the University, where sensitive data can be processed 
+safely and securely. The Secure Data Service’s research platform is 
+highly secure, compliant with NHS Data Protection Security Toolkit and 
+certified to ISO.IEC 27001:2022.
+The Secure Data Service team is responsible for the security of the 
+research platform, however users are responsible for their conduct on 
+the platform.
+The Secure Data Service team is not responsible for your data - as such 
+the Secure Data Service team will not sign off as a responsible party of 
+any data sharing agreement, data destruction certificate or otherwise 
+enter into agreements pertaining to ownership of any data on the 
+platform.
+The Secure Data Service can provide confirmation of activity on the 
+platform, though, such as which users have access to a specific project, 
+confirmation that a project has been deleted etc.
+Standard research storage
+We can offer 10TB of free storage for materials for your research project.
+Find out about the features of the storage, whether it will work for you 
+and how you can access it.
+Overview
+Standard research storage is free, 10TB data storage that we offer to 
+research groups for storing materials during the life of a project.
+The storage is centrally managed by IT Services, so your data will be
+kept secure
+backed up to protect against disasters and failures
+Eligibility
+Each research principal investigator (PI) is allowed to share 10TB of 
+standard research storage between multiple projects and as many staff 
+as needed.
+Undergraduate and postgraduate students can use shared areas when 
+access requests to a shared area owner are granted.
+You should contact the shared area owner if you believe you should have 
+access.
+Making a request
+To request the space, the principal investigator (PI), or a staff nominee, 
+needs to complete an application form to give us a few basic details.
+It usually takes up to three working days for your 10TB space to be up 
+and running.
+Request standard research storage
+You will need to be connected via VPN or on the campus network to 
+access the link above.
+Features
+Standard research storage is designed specifically to meet the needs of 
+research groups.
+Some of the features of the storage are explained below.
+Shared team space
+The shared space is accessible to all members of the research group, so 
+it's ideal for collaboration and sharing of files.
+Each shared space will have a space administrator, who manages the 
+space. This is usually the principal investigator (PI).
+The space administrator can add and remove access rights to the space 
+and any folders within it. Anyone with a University account can be given 
+access to shared folders.
+Individual space
+A personal folder is set up for each team member, within the "Users" 
+folder of your research storage.
+Each member can only see their own directory by default. The space 
+administrator can access all personal spaces for the team.
+Central management
+The safety and security of research storage spaces are centrally managed
+by IT Services, ensuring that all your data is secure. All of the security, 
+patching and configuration is managed for you.
+All personal and shared spaces are access-controlled, meaning only those
+with explicit permission can view data. Access can only be granted to 
+people with a University of Sheffield computer account.
+External collaboration
+You can collaborate with research partners who are outside the 
+University by creating computer accounts for them.
+File recovery
+Individual files and folders can be quickly and easily recovered if they're 
+accidentally overwritten or deleted.
+All spaces get regular snapshots, which are copies of the storage area at 
+a specific point in time. We take snapshots of each area several times a 
+day, and they're retained for seven days.
+Disaster recovery
+Each storage area is backed up to a second data centre. This means that 
+if we have a hardware problem with our storage system, such as a disk 
+failure, your files are protected.
+This backup copy isn't ordinarily used for recovery when a file gets 
+deleted or corrupted, it's designed for use when there are problems with 
+the storage system.
+High-performance computing (HPC) access
+You can access your research storage from the University's HPC 
+facilities. When you request standard research storage for a research 
+group, it can be configured to be accessible against the HPCs.
+Technical details
+Standard research storage is on NetApp filers. These provide over 1 
+petabyte of storage.
+Data is snapshotted regularly to make sure file recovery is quick and 
+easy, in the event a file is accidentally deleted or corrupted.
+Data is split between two physical data centres, and research storage is 
+backed up between the two data centres. This gives better protection 
+against hardware and networking problems.
+A copy of the daily snapshots is retained for 28 days in the other data 
+centre, for disaster recovery purposes.
+The storage can all be accessed via SMB with any suitable client.
+Alternative requirements
+In some situations, you may need something different to our standard 
+research storage.
+We're always happy to talk through your specific requirements and 
+provide you with a quote. Get in touch if
+you need more than 10TB of storage. By default, we offer 10TB of 
+space, so we'd need to discuss options if you need a larger quota
+you need to process large volumes of data regularly. If you're 
+generating a lot of temporary data, you may need less frequent 
+backups or a shorter retention period for your area
+you're looking for long-term archival of data
