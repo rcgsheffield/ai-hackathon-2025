@@ -1,0 +1,29 @@
+INTELLIGENT CATEGORIZATION:
+   Category: Software & Applications
+   Subcategory: Python Programming/Geospatial Analytics
+
+⚡ AI PRIORITY ASSESSMENT:
+   Priority: P3
+   Technical Complexity: medium
+   Escalation Required: ✅ NO
+
+👥 EXPERT TEAM ROUTING:
+   Assigned Team: Applications Support
+   Required Expertise: Python programming, geospatial libraries (GeoPandas, Shapely, Rasterio), data analysis, troubleshooting, environment configuration
+   AI Confidence: 82.0%
+
+🧠 CLAUDE'S REASONING:
+   This ticket shows strong similarity to historical tickets 1, 2, and 5 (all Python environment issues with ModuleNotFoundError patterns), suggesting a common Python environment or package installation problem. The user (Alexis) is experiencing issues with geospatial analytics in Python, which typically involves specialized libraries like GeoPandas, Shapely, Rasterio, or similar packages. The frustrated tone ('just NOT working?!') indicates they've likely attempted basic troubleshooting. Given the pattern from similar tickets, this is most likely a missing package/dependency issue or environment configuration problem. The issue affects one researcher (individual impact), has no stated deadline urgency, and appears to be a standard software configuration issue rather than a system-wide problem. Applications Support team is best positioned as they handle Python environments, software installation, and user guidance - matching the expertise needed for geospatial Python libraries.
+
+⚡ IMMEDIATE ACTIONS:
+   1. Contact Alexis to gather specific error messages and Python environment details
+   2. Identify which geospatial libraries they're attempting to use (GeoPandas, Shapely, etc.)
+   3. Check their current Python environment and module availability on their system
+
+📊 SIMILAR HISTORICAL CASES:
+   1. 53.9% similarity - Python environment not working - Software Installa...
+      Previous team: Data Management, Priority: P3
+   2. 53.0% similarity - MATLAB license error on cluster...
+      Previous team: Data Management, Priority: RFC
+   3. 49.9% similarity - R package installation failing - Conda/Python Envi...
+      Previous team: Infrastructure, Priority: P3
