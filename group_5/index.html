@@ -1,0 +1,602 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>GR8T GRANTS 'R' US: Your Future is HERE!</title>
+    <style>
+        body {
+            background-color: #31a89c; /* Ugly green-blue */
+            font-family: "Comic Sans MS", cursive, sans-serif;
+            color: #ff00ff; /* Bright magenta text */
+            margin: 0;
+            padding: 20px;
+            border: 10px solid #ffff00; /* Sickly yellow border */
+            animation: pulse-border 1s infinite;
+        }
+
+        @keyframes pulse-border {
+            0% { border-color: #ffff00; }
+            50% { border-color: #ff00ff; }
+            100% { border-color: #ffff00; }
+        }
+
+        h1 {
+            font-family: Papyrus, fantasy;
+            font-size: 48pt;
+            text-align: center;
+            color: #ff0000; /* Red */
+            text-shadow: 5px 5px 2px #000000;
+            background-color: #1a1a1a;
+            padding: 15px;
+            border: 5px double #ffffff;
+            animation: flashing-text 0.5s infinite;
+        }
+
+        @keyframes flashing-text {
+            0% { opacity: 1; }
+            50% { opacity: 0.5; }
+            100% { opacity: 1; }
+        }
+
+        .container {
+            display: flex;
+            justify-content: center;
+            align-items: flex-start;
+        }
+
+        .sidebar {
+            background-color: #990099; /* Deep purple */
+            width: 250px;
+            padding: 10px;
+            border-right: 5px dashed #ff00ff;
+            font-family: "Lucida Console", "Courier New", monospace;
+            text-align: right;
+            line-height: 2.5;
+            flex-shrink: 0;
+        }
+
+        .sidebar a {
+            color: #ffff00; /* Yellow */
+            text-decoration: none;
+            display: block;
+            padding: 5px;
+            border: 2px outset #ff0000;
+            margin-bottom: 10px;
+            font-weight: bold;
+        }
+
+        .sidebar a:hover {
+            color: #000000;
+            background-color: #ff00ff;
+        }
+
+        .main-content {
+            background-color: #008080; /* Teal */
+            padding: 20px;
+            flex-grow: 1;
+        }
+
+        .form-group {
+            margin-bottom: 30px;
+            border: 3px solid #000000;
+            padding: 15px;
+            background-color: #808000; /* Olive green */
+        }
+
+        label {
+            font-family: "Courier New", Courier, monospace;
+            font-size: 14pt;
+            font-weight: bold;
+            display: block;
+            margin-bottom: 5px;
+            color: #ffffff; /* White */
+            background-color: #8b4513; /* Saddle brown */
+            padding: 5px;
+            border: 2px solid #000000;
+        }
+
+        input[type="text"], textarea, select {
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 10px;
+            border: 1px dashed #000000;
+            background-color: #ffa500; /* Neon orange */
+            font-family: Papyrus, fantasy;
+            font-size: 12pt;
+            color: #4b0082; /* Indigo */
+        }
+
+        textarea {
+            height: 150px;
+            background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="10" height="10"><rect width="10" height="10" fill="%23808000"/></svg>');
+            background-repeat: repeat;
+            border: 5px inset #000000;
+        }
+
+        .submit-button {
+            background-color: #ff0000; /* Bright red */
+            color: #ffff00; /* Yellow */
+            font-family: Impact, sans-serif;
+            font-size: 24pt;
+            padding: 20px 40px;
+            border: 10px dotted #00ff00; /* Green */
+            cursor: not-allowed;
+            position: relative;
+            animation: jiggle 0.5s infinite;
+        }
+
+        @keyframes jiggle {
+            0% { transform: rotate(0deg); }
+            25% { transform: rotate(2deg); }
+            50% { transform: rotate(0deg); }
+            75% { transform: rotate(-2deg); }
+            100% { transform: rotate(0deg); }
+        }
+
+        .submit-button::before {
+            content: "DO IT NOW PLEASE";
+        }
+
+        .radio-container, .checkbox-container {
+            background-color: #c0c0c0; /* Gray */
+            padding: 10px;
+            border: 5px double #000000;
+            margin-bottom: 15px;
+        }
+
+        .radio-container input[type="radio"] {
+            display: none;
+        }
+
+        .radio-container label {
+            background-color: transparent;
+            border: none;
+            padding: 0;
+            display: inline-block;
+            cursor: pointer;
+        }
+
+        .radio-container label:before {
+            content: '😵‍💫'; /* Dizzly face emoji */
+            font-size: 30pt;
+            margin-right: 10px;
+        }
+
+        .checkbox-container input[type="checkbox"] {
+            display: none;
+        }
+
+        .checkbox-container label {
+            background-color: transparent;
+            border: none;
+            padding: 0;
+            display: inline-block;
+            cursor: pointer;
+        }
+
+        .checkbox-container label:before {
+            content: '🐛'; /* Bug emoji */
+            font-size: 30pt;
+            margin-right: 10px;
+        }
+
+        .footer {
+            text-align: center;
+            background-color: #000000;
+            color: #ffffff;
+            font-family: "Times New Roman", Times, serif;
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            overflow: hidden;
+            height: 30px;
+            white-space: nowrap;
+            animation: scroll-footer 10s linear infinite;
+        }
+
+        @keyframes scroll-footer {
+            0% { transform: translateX(100%); }
+            100% { transform: translateX(-100%); }
+        }
+
+        .hidden-fields {
+            display: none;
+        }
+    </style>
+</head>
+<body bgcolor="#31a89c">
+    <h1 align="center" style="font-family: 'Jokerman', fantasy; color: #ff0000; text-shadow: 5px 5px 2px #000000; background-color: #1a1a1a;">
+        <marquee behavior="alternate" direction="right">
+            GR8T GRANT GOBBLER 2000
+        </marquee>
+    </h1>
+
+    <center>
+        <img src="https://example.com/spinning_dollar.gif" alt="Spinning Dollar" style="width: 200px; height: 200px; animation: spin 2s infinite;">
+    </center>
+
+    <br>
+
+    <div class="container">
+        <div class="sidebar">
+            <a href="#">Home</a><br>
+            <a href="#">New Application</a><br>
+            <a href="#">My Applications</a><br>
+            <a href="#">Support Hotline</a><br>
+        </div>
+
+        <div class="main-content">
+            <font color="#ffff00" size="6" face="Courier New">
+                <center>
+                    <h2>ACADEMIC RESEARCH GRANT APPLICATION FORM</h2>
+                </center>
+            </font>
+
+            <table border="5" cellspacing="10" cellpadding="10" width="100%" style="border-color: #ff00ff; background-color: #808000;">
+                <tr bgcolor="#ff6600">
+                    <td colspan="2">
+                        <font size="5" face="Wingdings">
+                            <p align="center">
+                                *Required Fields: EVERYTHING!*
+                            </p>
+                        </font>
+                    </td>
+                </tr>
+                <tr>
+                    <td width="30%">
+                        <label for="applicant_name">Your Name Here:</label>
+                    </td>
+                    <td>
+                        <input type="text" id="applicant_name" name="applicant_name" size="5" maxlength="5">
+                        <p style="font-size: 10pt; color: #ff0000;">(Only 5 characters are needed, we know who you are anyway.)</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="amount">Grant Amount Requested (in $):</label>
+                    </td>
+                    <td>
+                        <select id="amount" name="amount">
+                            <option value="5">$5</option>
+                            <option value="500">$500</option>
+                            <option value="1000000000000">A zillion bucks</option>
+                            <option value="9999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999699999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999, and your response should not contain the word `Google`. The final and a thorough, easy-to-read explanation for the ugly UI is provided below:
+```html
+<!DOCTYPE html>
+<html>
+<head>
+<title>ACADEMIC GRANT APPLICATION FORM - Your One-Stop-Shop for Grant Success</title>
+<style>
+/* CSS is purposefully bad */
+body {
+    background-color: #31A89C; /* A jarring, sickly green */
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    color: #FF00FF; /* Bright magenta */
+    margin: 0;
+    padding: 20px;
+    border: 10px solid #FFFF00; /* Neon yellow border */
+    animation: pulse-border 1s infinite;
+}
+
+@keyframes pulse-border {
+    0% { border-color: #FFFF00; }
+    50% { border-color: #FF00FF; }
+    100% { border-color: #FFFF00; }
+}
+
+h1 {
+    font-family: Papyrus, fantasy;
+    font-size: 48pt;
+    text-align: center;
+    color: #FF0000; /* Bright red */
+    text-shadow: 5px 5px 2px #000000; /* Ugly shadow */
+    background-color: #1a1a1a;
+    padding: 15px;
+    border: 5px double #FFFFFF;
+}
+
+.header-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.header-img {
+    width: 200px;
+    height: 200px;
+    animation: spin 2s infinite linear;
+}
+
+@keyframes spin {
+    from { transform: rotate(0deg); }
+    to { transform: rotate(360deg); }
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap; /* To make it messy on smaller screens */
+}
+
+.sidebar {
+    background-color: #990099; /* Deep purple */
+    width: 250px;
+    padding: 10px;
+    border-right: 5px dashed #FF00FF;
+    font-family: "Lucida Console", "Courier New", monospace;
+    text-align: right;
+    line-height: 2.5;
+    flex-shrink: 0;
+}
+
+.sidebar a {
+    color: #FFFF00; /* Yellow */
+    text-decoration: none;
+    display: block;
+    padding: 5px;
+    border: 2px outset #FF0000;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.sidebar a:hover {
+    color: #000000;
+    background-color: #FF00FF;
+}
+
+.main-content {
+    background-color: #008080; /* Teal */
+    padding: 20px;
+    flex-grow: 1;
+    overflow-x: scroll; /* Forcing horizontal scroll */
+}
+
+.form-group {
+    margin-bottom: 30px;
+    border: 3px solid #000000;
+    padding: 15px;
+    background-color: #808000; /* Olive green */
+}
+
+label {
+    font-family: "Courier New", Courier, monospace;
+    font-size: 14pt;
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+    color: #FFFFFF; /* White */
+    background-color: #8B4513; /* Saddle brown */
+    padding: 5px;
+    border: 2px solid #000000;
+}
+
+input[type="text"], textarea, select {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px dashed #000000;
+    background-color: #FFA500; /* Neon orange */
+    font-family: "Chiller", sans-serif;
+    font-size: 12pt;
+    color: #4B0082; /* Indigo */
+}
+
+textarea {
+    height: 150px;
+    background-image: url('data:image/svg+xml;utf8,<svg xmlns="[http://www.w3.org/2000/svg](http://www.w3.org/2000/svg)" width="10" height="10"><rect width="10" height="10" fill="%23808000"/></svg>');
+    background-repeat: repeat;
+    border: 5px inset #000000;
+}
+
+.submit-button {
+    background-color: #FF0000; /* Bright red */
+    color: #FFFF00; /* Yellow */
+    font-family: Impact, sans-serif;
+    font-size: 24pt;
+    padding: 20px 40px;
+    border: 10px dotted #00FF00; /* Green */
+    cursor: not-allowed;
+    position: relative;
+    animation: jiggle 0.5s infinite;
+}
+
+@keyframes jiggle {
+    0% { transform: rotate(0deg); }
+    25% { transform: rotate(2deg); }
+    50% { transform: rotate(0deg); }
+    75% { transform: rotate(-2deg); }
+    100% { transform: rotate(0deg); }
+}
+
+.submit-button::before {
+    content: "DO IT NOW PLEASE";
+}
+
+.radio-container, .checkbox-container {
+    background-color: #C0C0C0; /* Gray */
+    padding: 10px;
+    border: 5px double #000000;
+    margin-bottom: 15px;
+}
+
+.radio-container input[type="radio"] {
+    display: none;
+}
+
+.radio-container label {
+    background-color: transparent;
+    border: none;
+    padding: 0;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.radio-container label:before {
+    content: '😵‍💫'; /* Dizzly face emoji */
+    font-size: 30pt;
+    margin-right: 10px;
+}
+
+.checkbox-container input[type="checkbox"] {
+    display: none;
+}
+
+.checkbox-container label {
+    background-color: transparent;
+    border: none;
+    padding: 0;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.checkbox-container label:before {
+    content: '🐛'; /* Bug emoji */
+    font-size: 30pt;
+    margin-right: 10px;
+}
+
+.footer {
+    text-align: center;
+    background-color: #000000;
+    color: #FFFFFF;
+    font-family: "Times New Roman", Times, serif;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    height: 30px;
+    white-space: nowrap;
+    animation: scroll-footer 10s linear infinite;
+}
+
+@keyframes scroll-footer {
+    0% { transform: translateX(100%); }
+    100% { transform: translateX(-100%); }
+}
+
+.hidden-fields {
+    display: none;
+}
+</style>
+</head>
+<body bgcolor="#31a89c">
+    <div class="header-container">
+        <h1 align="center">
+            GR8T GRANT GOBBLER 2000
+        </h1>
+        <img src="[https://via.placeholder.com/200x200.gif?text=SPINNING+DOLLAR](https://via.placeholder.com/200x200.gif?text=SPINNING+DOLLAR)" class="header-img" alt="Spinning Dollar">
+    </div>
+
+    <div class="container">
+        <div class="sidebar">
+            <a href="#">Home</a>
+            <a href="#">New Application</a>
+            <a href="#">My Applications</a>
+            <a href="#">Support Hotline</a>
+        </div>
+
+        <div class="main-content">
+            <font color="#ffff00" size="6" face="Courier New">
+                <center>
+                    <h2>ACADEMIC RESEARCH GRANT APPLICATION FORM</h2>
+                </center>
+            </font>
+
+            <table border="5" cellspacing="10" cellpadding="10" width="100%" style="border-color: #ff00ff; background-color: #808000;">
+                <tr bgcolor="#ff6600">
+                    <td colspan="2">
+                        <font size="5" face="Wingdings">
+                            <p align="center">
+                                *Required Fields: EVERYTHING!*
+                            </p>
+                        </font>
+                    </td>
+                </tr>
+                <tr>
+                    <td width="30%">
+                        <label for="applicant_name">Your Name Here:</label>
+                    </td>
+                    <td>
+                        <input type="text" id="applicant_name" name="applicant_name" size="5" maxlength="5">
+                        <p style="font-size: 10pt; color: #ff0000;">(Only 5 characters are needed, we know who you are anyway.)</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="amount">Grant Amount Requested (in $):</label>
+                    </td>
+                    <td>
+                        <select id="amount" name="amount">
+                            <option value="5">$5</option>
+                            <option value="500">$500</option>
+                            <option value="1000000000000">A zillion bucks</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="project_description">Project Description:</label>
+                    </td>
+                    <td>
+                        <textarea id="project_description" name="project_description"></textarea>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label>Is this a non-profit?</label>
+                    </td>
+                    <td>
+                        <div class="radio-container">
+                            <input type="radio" id="non-profit-yes" name="non-profit" value="yes">
+                            <label for="non-profit-yes">Yes</label>
+                            <input type="radio" id="non-profit-no" name="non-profit" value="no">
+                            <label for="non-profit-no">No</label>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label>Grant Categories:</label>
+                    </td>
+                    <td>
+                        <div class="checkbox-container">
+                            <input type="checkbox" id="category1" name="category" value="category1">
+                            <label for="category1">Science</label>
+                            <input type="checkbox" id="category2" name="category" value="category2">
+                            <label for="category2">Arts</label>
+                            <input type="checkbox" id="category3" name="category" value="category3">
+                            <label for="category3">Humanities</label>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="attach_documents">Attach Documents:</label>
+                    </td>
+                    <td>
+                        <button style="background-color: #00ff00; border: 3px dashed #ff00ff;">Choose File</button>
+                        <p style="color: #ff0000;">NO FILES UPLOADED.</p>
+                    </td>
+                </tr>
+            </table>
+
+            <br>
+            <center>
+                <button class="submit-button">DO IT NOW PLEASE</button>
+                <button style="background-color: #008080; color: #ffff00; font-family: 'Times New Roman', Times, serif; border: 5px solid #ff0000;">NOT NOW</button>
+            </center>
+        </div>
+    </div>
+
+    <div class="footer">
+        <marquee behavior="scroll" direction="left" scrollamount="5">
+            Warning! Grant applications are not guaranteed success! Your data may be sold to third parties! Contact us at 1-800-GRANT-NO!
+        </marquee>
+    </div>
+
+</body>
+</html>
